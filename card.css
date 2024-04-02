@@ -1,0 +1,39 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+}
+.container{
+  width: 300px;
+  height: 520px;
+  margin:100px auto;
+  background-color: rgb(31, 31, 31);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+h3{
+  color: yellow;
+}
+a{
+  width: 280px;
+  height: 20px;
+  background-color: rgb(51, 51, 51);
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
