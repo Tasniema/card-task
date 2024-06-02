@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(242,235,227);
+  padding: 0px;
+  margin: 0px;
+}
+.parent{
+  width: 600px;
+  display: flex;
+  margin: auto;
+  padding-top: 70px;
+}
+img{
+  width: 300px;
+  height: 450px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.child{
+  width: 220px;
+  height: 369px;
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+h4{
+  color:rgb(122,129,144);
+}
+h1{
+  font-weight: bold;
+  font-size: 34px;
+}
+p{
+  font-family: system-ui;
+  color: rgb(108,116,137);
+}
+.new-price{
+  color: rgb(60,128,103);
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px;
+}
+button{
+  background-color: rgb(60,128,103);
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.old-price{
+   margin-top: 10px;
+   font-size:0.8em;
+   text-decoration: line-through;
+   color:grey;
+  }
+  .shopping-car{
+    width: 20px;
+    height: 20px;
+  }
